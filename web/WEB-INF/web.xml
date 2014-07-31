@@ -56,6 +56,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>faces/redirect.jsp</welcome-file>
+        <welcome-file>faces/redirect.jsp</welcome-file><!-- Step one in call now go to redirect.jsp-->
     </welcome-file-list>
 </web-app>

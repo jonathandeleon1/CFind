@@ -18,7 +18,7 @@
     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
-                <prop key="index.htm">indexController</prop>
+                <prop key="index.htm">indexController</prop><!--Step3 now go to bean defined below-->
             </props>
         </property>
     </bean>
@@ -28,9 +28,7 @@
           p:prefix="/WEB-INF/jsp/"
           p:suffix=".jsp" />
 
-    <!--
-    The index controller.
-    -->
+    <!--Step4 now bean name indexController is created with class and calls the view The index controller.-->
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
