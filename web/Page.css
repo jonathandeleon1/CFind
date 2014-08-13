@@ -1,0 +1,17 @@
+/* 
+    Document   : Page
+    Created on : Aug 13, 2014, 11:37:40 AM
+    Author     : jonadele
+    Description:
+        Purpose of the stylesheet follows.
+        
+        The Css file structure needs to be in the Web pages folder
+*/
+
+root { 
+    display: block;
+}
+h1{
+    font-size: 10em;
+    border: .2em solid black; 
+}
