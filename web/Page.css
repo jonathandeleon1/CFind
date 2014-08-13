@@ -12,6 +12,21 @@ root {
     display: block;
 }
 h1{
-    font-size: 10em;
-    border: .2em solid black; 
+    font-size: 3em;
+}
+#logInAndCreateAccount{/*I want everything in this tag to move right*/
+    border: solid;
+    margin-left: 1000px; 
+    font-size: 9pt;
+    text-align: left;
+}
+#logInAndCreateAccount h3{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16pt;
+}
+#welcome{
+    position: fixed;
+    top: -30px;
+    left:0px;
 }
