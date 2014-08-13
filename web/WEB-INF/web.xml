@@ -12,7 +12,7 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     <servlet>
-        <servlet-name>dispatcher</servlet-name>
+        <servlet-name>cfind</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <load-on-startup>2</load-on-startup>
     </servlet>
@@ -39,7 +39,7 @@
         <load-on-startup>2</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>dispatcher</servlet-name>
+        <servlet-name>cfind</servlet-name>
         <url-pattern>*.htm</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
@@ -56,6 +56,7 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>faces/redirect.jsp</welcome-file><!-- Step one in call now go to redirect.jsp-->
+        <!-- Can use either one home.htm or redirect.jsp-->
+        <welcome-file>home.htm<!--faces/redirect.jsp--></welcome-file><!-- Step one in call now go to redirect.jsp-->
     </welcome-file-list>
 </web-app>
